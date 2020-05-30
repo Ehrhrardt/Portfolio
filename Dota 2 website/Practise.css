@@ -38,12 +38,14 @@ body {
   /* --- Header --- */
   
   .header {
-  
-    background-image: url('https://libreshot.com/wp-content/uploads/2016/01/fruit-in-bowl.jpg');
+    background-image: url('Images/Tournamentpic4.jpg');
     background-size: cover;
-    background-position: center;
-    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat; /*So that background doesn't repeat--*/
+
   }
+
+
 /* --- Overlay ---*/
   .overlay {
     position: absolute;
@@ -51,7 +53,7 @@ body {
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
   }
 /* --- Descriptions ---*/
 
