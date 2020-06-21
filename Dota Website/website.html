@@ -10,59 +10,37 @@
 <body>
 
 
+<!-- Indicators for website to slide -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> <!-- ID =carouselExampleIndicators to match other things to this code -->
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" ></li> <!-- Data slides to the number of slide -->
+    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
 
- <nav class="navbar navbar-expand-sm navbar-dark">
-   <a href="#" class="navbar-brand"><img src="https://img.icons8.com/color/40/000000/dota.png"/></a>
-   <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu">
-     <span class="navbar-toggler-icon"></span>
-   </button>
-   <div class="collapse navbar-collapse" id="navbar-menu">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a href="#" class="nav-link">Tournament</a> 
-       </li>
-       <li class="nav-item">
-         <a href="#" class="nav-link">Discord</a> 
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">About</a> 
-         </li>
-    </ul>
-  
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a href="#" class="nav-link">Contacts</a> 
-       </li>
-       <li class="nav-item">
-        <a href="#" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-          width="25" height="25"
-          viewBox="0 0 172 172"
-          style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="#000000"></path><g fill="#ffffff"><path d="M49.92548,0c-27.49519,0 -49.92548,22.43029 -49.92548,49.92548v72.14904c0,27.49519 22.43029,49.92548 49.92548,49.92548h72.14904c27.49519,0 49.92548,-22.43029 49.92548,-49.92548v-72.14904c0,-27.49519 -22.43029,-49.92548 -49.92548,-49.92548zM49.92548,13.23077h72.14904c20.33714,0 36.69471,16.33173 36.69471,36.69471v72.14904c0,20.33714 -16.33173,36.69471 -36.69471,36.69471h-72.14904c-20.33714,0 -36.69471,-16.33173 -36.69471,-36.69471v-72.14904c0,-20.33714 16.33173,-36.69471 36.69471,-36.69471zM135.61538,26.46154c-5.47837,0 -9.92308,4.44471 -9.92308,9.92308c0,5.47837 4.44471,9.92308 9.92308,9.92308c5.47837,0 9.92308,-4.44471 9.92308,-9.92308c0,-5.47837 -4.44471,-9.92308 -9.92308,-9.92308zM86,39.69231c-25.50541,0 -46.30769,20.80228 -46.30769,46.30769c0,25.50541 20.80228,46.30769 46.30769,46.30769c25.50541,0 46.30769,-20.80228 46.30769,-46.30769c0,-25.50541 -20.80228,-46.30769 -46.30769,-46.30769zM86,52.92308c18.34736,0 33.07692,14.72957 33.07692,33.07692c0,18.34736 -14.72956,33.07692 -33.07692,33.07692c-18.34735,0 -33.07692,-14.72956 -33.07692,-33.07692c0,-18.34735 14.72957,-33.07692 33.07692,-33.07692z"></path></g></g></svg></a> 
-       </li>
-       <li class="nav-item">
-        <a href="#" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-          width="25" height="25"
-          viewBox="0 0 172 172"
-          style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="#000000"></path><g id="original-icon" fill="#ffffff"><path d="M172,30.82226c-6.4388,2.85547 -12.9056,5.01107 -20.07226,5.73894c7.16667,-4.3112 12.9056,-11.47787 15.76107,-19.3724c-7.16667,4.31119 -14.33333,7.16667 -22.19988,8.6224c-7.16667,-7.16667 -16.48893,-11.47787 -26.51106,-11.47787c-19.3724,0 -35.13347,15.76107 -35.13347,35.10547c0,2.88346 0,5.73893 0.72786,7.89453c-29.39453,-1.42774 -55.17773,-15.06119 -72.39453,-36.56119c-3.58333,5.03906 -5.01107,11.47786 -5.01107,17.91667c0,12.20573 6.43881,22.95573 15.76107,29.39453c-5.73893,-0.72786 -11.44987,-2.1556 -15.76107,-4.31119c0,0 0,0 0,0.72786c0,17.18881 12.17774,31.52214 27.93881,34.4056c-2.85547,0.69988 -5.71094,1.42774 -9.29427,1.42774c-2.1556,0 -4.3112,0 -6.4668,-0.72786c4.31119,14.33333 17.2168,24.38346 32.97786,24.38346c-12.17773,9.32227 -27.23893,15.03321 -43.72786,15.03321c-2.85547,0 -5.73893,0 -8.5944,-0.69988c15.76107,10.02214 34.4056,15.76107 53.75,15.76107c65.22787,0 100.33333,-53.75 100.33333,-100.33333c0,-1.42774 0,-2.85547 0,-4.31119c7.16667,-5.01107 12.9056,-11.44988 17.91667,-18.61654"></path></g><path d="" fill="none"></path></g></svg></a> 
-       </li>
-       <li class="nav-item">
-        <a href="#" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-          width="25" height="25"
-          viewBox="0 0 172 172"
-          style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="#000000"></path><g fill="#ffffff"><path d="M86,0c-47.4935,0 -86,38.5065 -86,86c0,43.11467 31.76267,78.71867 73.143,84.93933v-62.14933h-21.27783v-22.60367h21.27783v-15.04283c0,-24.90417 12.13317,-35.83333 32.8305,-35.83333c9.9115,0 15.1575,0.73817 17.63717,1.06783v19.72983h-14.11833c-8.78633,0 -11.85367,8.33483 -11.85367,17.72317v12.35533h25.74983l-3.49017,22.60367h-22.25967v62.3285c41.97517,-5.69033 74.36133,-41.581 74.36133,-85.1185c0,-47.4935 -38.5065,-86 -86,-86z"></path></g></g></svg></a> 
-       </li>
-       <li class="nav-item">
-        <a href="#" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-          width="25" height="25"
-          viewBox="0 0 172 172"
-          style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="#000000"></path><g fill="#ffffff"><path d="M86,8.0625c-43,0 -77.9375,34.9375 -77.9375,77.9375c0,43 34.9375,77.9375 77.9375,77.9375c43,0 77.9375,-34.9375 77.9375,-77.9375c0,-32.7875 -20.69427,-62.34947 -51.60053,-73.36823c-8.46562,-3.09062 -17.33385,-4.56927 -26.33697,-4.56927zM86,16.125c8.0625,0 15.9901,1.34375 23.64947,4.03125c0.40313,0.13437 0.8073,0.2698 1.07605,0.40417l0.2677,9.8078c0,3.62812 -2.14947,6.98855 -5.50885,8.46668c-7.39062,3.225 -14.7823,1.47865 -17.87292,9.94427c-2.55312,6.45 4.1672,23.78333 12.36407,23.78333c10.34687,0 15.3177,-20.82812 18.40832,-20.82812c2.01563,0 5.10625,6.31458 8.73438,11.0177c2.41875,3.225 6.18073,4.97345 10.21198,4.97345h6.85522l9.8078,2.28332c1.20937,5.24062 1.88177,10.61615 1.88177,15.99115c0,38.56562 -31.30938,69.875 -69.875,69.875c-5.50938,0 -10.8849,-0.6724 -15.99115,-1.88177v-9.00208l-3.35937,-3.35937c-3.35937,-3.35937 3.49375,-9.00312 5.375,-16.125c5.24062,-20.15625 -12.22812,-20.96303 -12.76562,-25.3974c-0.5375,-4.97187 5.91355,-8.7349 9.81043,-12.63178c3.89687,-3.89687 5.10468,-9.94375 3.08905,-13.4375c-6.31563,-11.69063 -21.63333,-5.50938 -23.11145,6.71875c-0.80625,7.39063 -5.23958,14.91562 -9.00208,18.8125c-3.7625,3.7625 -11.15417,1.74845 -13.1698,-3.76093c-2.28438,-6.18125 5.6448,-8.4672 4.43542,-16.39532c-0.26875,-2.15 -2.55313,-3.22395 -5.375,-3.62707l-9.2724,0.2677c4.97187,-33.8625 34.13072,-59.93072 69.33697,-59.93072zM132.33575,93.98376c-3.53207,0.19211 -8.45985,1.94424 -15.1618,6.52979c-5.10625,3.49375 -14.10728,-3.76355 -18.00415,1.61145c-3.7625,5.24063 15.98905,21.23125 22.57343,18.14063c11.15312,-5.24063 18.41095,-16.125 18.41095,-20.15625c0.08398,-2.43555 -1.93164,-6.4458 -7.81842,-6.12561z"></path></g></g></svg></a> 
-       </li>
-    </ul>
-   </div>
-      <header class="page-header header container-fluid">
-    </head>
-   
-  </nav>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="carousel-item "> <!-- Items inside of the carousel -->
+      <img class="d-block w-100" src="Images/1Sliderimg.jpg" alt="First slide"> <!-- Images in carousel -->
+    </div>
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="Images/Tournamentpic1.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="Images/Leaderboard.jpg" alt="Third slide">
+    </div>
+  </div>
+
+    <!-- Buttons on carousel -->
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
     
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
